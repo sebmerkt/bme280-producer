@@ -1,0 +1,15 @@
+{"namespace": "com.sensors",
+	"type": "record",
+	"name": "MeasurementData",
+	"fields": [
+		{"name": "timestamp", "type": "long", "default": -1},
+        {"name": "temperature_celsius", "type": "double", "default": -99999.99},
+        {"name": "temperature_fahrenheit", "type": "double", "default": -99999.99},
+        {"name": "humidity", "type": "double", "default": -99999.99},
+        {"name": "pressure", "type": "double", "default": -99999.99}
+	]
+}
+
+
+
+
